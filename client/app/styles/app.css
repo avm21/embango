@@ -121,3 +121,9 @@ textarea {
   background-color: var(--color-white);
   box-shadow: var(--box-shadow);
 }
+
+.italic-sm {
+  font-style: italic;
+  font-size: x-small;
+  color: brown;
+}
