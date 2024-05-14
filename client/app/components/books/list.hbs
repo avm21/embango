@@ -1,0 +1,7 @@
+<div class="book-list">
+    {{#each @books as |book|}}
+    <div class="book" role="button" onclick={{fn this.onClickBook book.id}}>
+        {{book.title}}
+    </div>
+    {{/each}}
+</div>
