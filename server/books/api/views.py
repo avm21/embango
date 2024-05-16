@@ -19,4 +19,3 @@ class bookRUDView(generics.RetrieveUpdateDestroyAPIView):
 
     def get_queryset(self):
         return Book.objects.all()
-    
